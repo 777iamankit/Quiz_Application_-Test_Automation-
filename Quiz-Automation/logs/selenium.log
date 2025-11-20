@@ -38,3 +38,155 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 Session ID: 8bf86f9f6f7acce5731a3059e9e3142f
 2025-11-20T09:28:00.720465900 - Screenshot saved: ERROR_1763611080552
 2025-11-20T09:28:00.925860500 - Browser closed
+2025-11-20T09:55:46.537256300 - === Quiz Automation Test Started ===
+2025-11-20T09:55:46.566348700 - Step 1: Verifying Landing Page
+2025-11-20T09:55:48.938197600 - Screenshot saved: 1_LandingPage
+2025-11-20T09:55:48.969300800 - Landing Page Loaded - URL: http://localhost:8000/, Title: Dynamic Quiz Application
+2025-11-20T09:55:49.188028200 - Selected Category: General, Difficulty: Easy
+2025-11-20T09:55:49.189027800 - Step 2: Starting Quiz
+2025-11-20T09:55:51.523782600 - Screenshot saved: 2_QuizStarted
+2025-11-20T09:55:51.524786400 - Quiz Started Successfully
+2025-11-20T09:55:51.525791 - Step 3: Answering Questions
+2025-11-20T09:55:51.587999600 - Processing Question 1: 1. What is the capital of France?
+2025-11-20T09:55:51.697365300 - Selected answer option 3 for Question 1
+2025-11-20T09:55:51.958661600 - Screenshot saved: 3_Question_1
+2025-11-20T09:55:52.035921700 - Reached final question
+2025-11-20T09:55:52.037923700 - Step 4: Submitting Quiz
+2025-11-20T09:55:54.391655600 - Screenshot saved: 4_QuizSubmitted
+2025-11-20T09:55:54.393662100 - Quiz Submitted
+2025-11-20T09:55:54.394666 - Step 5: Validating Results
+2025-11-20T09:56:04.443390100 - ❌ Test Failed with Error: no such element: Unable to locate element: {"method":"css selector","selector":"#total\-questions"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7295b7910fc8b5285341ae99770a6083, findElement {using=id, value=total-questions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61239}, goog:processID: 15404, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61239/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7295b7910fc8b5285341ae99770a6083
+2025-11-20T09:56:04.750404900 - Screenshot saved: ERROR_1763612764584
+2025-11-20T09:56:05.128240600 - Browser closed
+2025-11-20T10:23:01.725400600 - === Quiz Automation Test Started ===
+2025-11-20T10:23:01.741457500 - Step 1: Verifying Landing Page
+2025-11-20T10:23:06.577094300 - ❌ Test Failed with Error: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=142.0.7444.163)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b03ee16bb12f0a82c2999fba98ffa55b, get {url=http://localhost:8000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52387}, goog:processID: 5984, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52387/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b03ee16bb12f0a82c2999fba98ffa55b
+2025-11-20T10:23:06.751706600 - Screenshot saved: ERROR_1763614386599
+2025-11-20T10:23:06.944487100 - Browser closed
+2025-11-20T10:26:35.424789200 - === Quiz Automation Test Started ===
+2025-11-20T10:26:35.428805800 - Step 1: Verifying Landing Page
+2025-11-20T10:26:37.860457600 - Screenshot saved: 1_LandingPage
+2025-11-20T10:26:37.882529300 - Landing Page Loaded - URL: http://localhost:8000/, Title: Dynamic Quiz Application
+2025-11-20T10:26:38.097240200 - Selected Category: General, Difficulty: Easy
+2025-11-20T10:26:38.098246600 - Step 2: Starting Quiz
+2025-11-20T10:26:40.388543200 - Screenshot saved: 2_QuizStarted
+2025-11-20T10:26:40.390552400 - Quiz Started Successfully
+2025-11-20T10:26:40.392557700 - Step 3: Answering Questions
+2025-11-20T10:26:40.428678400 - Processing Question 1: 1. What is the capital of France?
+2025-11-20T10:26:40.502924600 - Selected answer option 3 for Question 1
+2025-11-20T10:26:40.705009500 - Screenshot saved: 3_Question_1
+2025-11-20T10:26:40.753169 - Reached final question
+2025-11-20T10:26:40.754173700 - Step 4: Submitting Quiz
+2025-11-20T10:26:42.982664900 - Screenshot saved: 4_QuizSubmitted
+2025-11-20T10:26:42.983673400 - Quiz Submitted
+2025-11-20T10:26:42.984672 - Step 5: Validating Results
+2025-11-20T10:26:53.037523700 - ❌ Test Failed with Error: no such element: Unable to locate element: {"method":"css selector","selector":"#total\-questions"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78dff437e68114c07f0cc3689d198236, findElement {using=id, value=total-questions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52718}, goog:processID: 20140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52718/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78dff437e68114c07f0cc3689d198236
+2025-11-20T10:26:53.235150900 - Screenshot saved: ERROR_1763614613081
+2025-11-20T10:26:53.483140300 - Browser closed
+2025-11-20T10:32:06.999577900 - === Quiz Automation Test Started ===
+2025-11-20T10:32:07.060780300 - Step 1: Verifying Landing Page
+2025-11-20T10:32:09.350732400 - Screenshot saved: 1_LandingPage
+2025-11-20T10:32:09.373808300 - Landing Page Loaded - URL: http://localhost:8000/, Title: Dynamic Quiz Application
+2025-11-20T10:32:09.551063800 - Selected Category: General, Difficulty: Easy
+2025-11-20T10:32:09.552067600 - Step 2: Starting Quiz
+2025-11-20T10:32:11.815925500 - Screenshot saved: 2_QuizStarted
+2025-11-20T10:32:11.817931800 - Quiz Started Successfully
+2025-11-20T10:32:11.818935800 - Step 3: Answering Questions
+2025-11-20T10:32:11.856059100 - Processing Question 1: 1. What is the capital of France?
+2025-11-20T10:32:11.932311100 - Selected answer option 3 for Question 1
+2025-11-20T10:32:12.140261700 - Screenshot saved: 3_Question_1
+2025-11-20T10:32:12.193440600 - Reached final question
+2025-11-20T10:32:12.194443800 - Step 4: Submitting Quiz
+2025-11-20T10:32:14.402045 - Screenshot saved: 4_QuizSubmitted
+2025-11-20T10:32:14.403047900 - Quiz Submitted
+2025-11-20T10:32:14.405054500 - Step 5: Validating Results
+2025-11-20T10:32:24.480620300 - ❌ Test Failed with Error: no such element: Unable to locate element: {"method":"css selector","selector":"#total\-questions"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b89bfb6fe5bd1b381ffa288823cea1bf, findElement {using=id, value=total-questions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53212}, goog:processID: 3152, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53212/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b89bfb6fe5bd1b381ffa288823cea1bf
+2025-11-20T10:32:24.780612100 - Screenshot saved: ERROR_1763614944515
+2025-11-20T10:32:25.081608800 - Browser closed
+2025-11-20T10:40:05.838764500 - === Quiz Automation Test Started ===
+2025-11-20T10:40:05.877954 - Step 1: Verifying Landing Page
+2025-11-20T10:40:08.985116700 - Screenshot saved: 1_LandingPage
+2025-11-20T10:40:09.050335 - Landing Page Loaded - URL: http://localhost:8000/, Title: Dynamic Quiz Application
+2025-11-20T10:40:09.369391 - Selected Category: General, Difficulty: Easy
+2025-11-20T10:40:09.371395900 - Step 2: Starting Quiz
+2025-11-20T10:40:11.916675900 - Screenshot saved: 2_QuizStarted
+2025-11-20T10:40:11.917677 - Quiz Started Successfully
+2025-11-20T10:40:11.919683600 - Step 3: Answering Questions
+2025-11-20T10:40:11.985902500 - Processing Question 1: 1. What is the capital of France?
+2025-11-20T10:40:12.119344700 - Selected answer option 3 for Question 1
+2025-11-20T10:40:12.374190400 - Screenshot saved: 3_Question_1
+2025-11-20T10:40:12.448435700 - Reached final question
+2025-11-20T10:40:12.450448400 - Step 4: Submitting Quiz
+2025-11-20T10:40:14.795392400 - Screenshot saved: 4_QuizSubmitted
+2025-11-20T10:40:14.804425100 - Quiz Submitted
+2025-11-20T10:40:14.810441900 - Step 5: Validating Results
+2025-11-20T10:40:24.916138600 - ❌ Test Failed with Error: no such element: Unable to locate element: {"method":"css selector","selector":"#total\-questions"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ca3c27e04355abec4b9f705be519c73, findElement {using=id, value=total-questions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54037}, goog:processID: 20956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54037/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ca3c27e04355abec4b9f705be519c73
+2025-11-20T10:40:25.184027800 - Screenshot saved: ERROR_1763615424966
+2025-11-20T10:40:25.466960800 - Browser closed
+2025-11-20T10:41:57.965858200 - === Quiz Automation Test Started ===
+2025-11-20T10:41:57.989940300 - Step 1: Verifying Landing Page
+2025-11-20T10:42:00.724620700 - Screenshot saved: 1_LandingPage
+2025-11-20T10:42:00.771777600 - Landing Page Loaded - URL: http://localhost:8000/, Title: Dynamic Quiz Application
+2025-11-20T10:42:01.184675600 - Selected Category: General, Difficulty: Easy
+2025-11-20T10:42:01.186680600 - Step 2: Starting Quiz
+2025-11-20T10:42:05.259680200 - Screenshot saved: 2_QuizStarted
+2025-11-20T10:42:05.260680600 - Quiz Started Successfully
+2025-11-20T10:42:05.266703 - Step 3: Answering Questions
+2025-11-20T10:42:05.351984900 - Processing Question 1: 1. What is the capital of France?
+2025-11-20T10:42:05.517531600 - Selected answer option 3 for Question 1
+2025-11-20T10:42:05.881249500 - Screenshot saved: 3_Question_1
+2025-11-20T10:42:05.977568700 - Reached final question
+2025-11-20T10:42:05.980578600 - Step 4: Submitting Quiz
+2025-11-20T10:42:08.520017100 - Screenshot saved: 4_QuizSubmitted
+2025-11-20T10:42:08.528044600 - Quiz Submitted
+2025-11-20T10:42:08.531581400 - Step 5: Validating Results
+2025-11-20T10:42:18.634745700 - ❌ Test Failed with Error: no such element: Unable to locate element: {"method":"css selector","selector":"#total\-questions"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [392b2b9de26fd65168a26863ac53f57e, findElement {using=id, value=total-questions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54225}, goog:processID: 15844, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54225/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 392b2b9de26fd65168a26863ac53f57e
+2025-11-20T10:42:18.935744400 - Screenshot saved: ERROR_1763615538696
+2025-11-20T10:42:19.420348 - Browser closed
